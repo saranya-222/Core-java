@@ -1,0 +1,402 @@
+1.perform all the arithmetic operations and take input from the user.
+2.Accept radius from the user and find the area of the circle
+3.Accept base and height from the user and find the area of the triangle.
+4.Accept principal amount,no.of years and rate of interest from the user and calculate simple interest.
+5.Accept marks of any three subjects from the user and calculate the percentage.
+6.Calculate the tax amount at 12% of the salary. 
+7.Accept age from the user and check whether the user is eligible for license or not.
+8.Accept a number from the user and check whether the given number is odd or even.
+9.Accept three numbers from the user and check the maximum of three.
+10.Accept three numbers from the user and check whether the numbers are +ve,-ve or 0.
+11.Accept salary from a person and print the tax amount,tax is 10% if income is less than 25000 or otherwise 15%.
+12.Accept purchase amount from the user and print discount amount 10% discount on purchase if amount is 10000 or 2% .
+13.Accept no.of calls from the user and print the bill amount,Rs.1 per call if no.of call is >200 or Rs.3.
+14.Accept values from the users and calculate area of circle,triangle and rectangle using switch case.
+15.Accept a character from a user  and check whether it is vowel or consonant using switch case. 
+        
+         For loop as well as while loop
+
+16.Print your name five times.
+16.print sum of first 10 natural numbers.
+17.print factorial of a given number.
+18.print a odd numbers from 25 to 50.
+19.print sum of even numbers ,take range from users.
+20.print multiplication table of a given number.
+21.print fibonacci series.
+22.Accept a number from the user and check whether it is armstrong number or not.
+23.Accept a number from the user and print a reverse of it.
+24.Accept a number from the user and check the number is palindrome or not.
+
+  
+      do while
+      
+25.Accept a number from a user and check
+    i)whether it is even or not.
+    ii)whether it is +ve or -ve or 0.
+    iii)whether it is palindrome or not.
+    iv)whether it is armstrong or not.
+    
+          Arrays
+      
+1.Accept array values from the user display the array elements.
+2.Accept the array values from the user and display its sum.
+3.Accept array elements from the user and print sum of even numbers and product of odd numbers.
+4.Accept the array elements from the user and display the minimum and maximum of it.
+5.Accept the array elements from the user and display the avg of odd and even numbers.
+6.Accept 10 array elements from the user and display first five numbers in ascending order and display last five numbers in descending order.
+   
+        
+        print the below series
+        
+1.1 3 5 7 9....n        
+2.1 4 9 16....n
+3.1 8 27 64...n
+4.1 9 25 49...n
+5.1/1+1/2+1/3+...1/n=?
+6.1/1+2/2+3/3+...n/n=?
+7.1/1+2/4+3/9+....n/n=?
+8.1/2+2/3+3/4+.....n/n=?
+9.1*2+2*3+3*4.....n*n=?
+10.1-2+3-4+5...n=?
+11.1/1!+2/2!+3/3!.....n/n!=?
+
+         Multidimensional arrays
+ 1.Addition of two matrices.        
+         
+      Classes and object
+ 1.Accept two values from the user and perform arithmetic operation.
+ 2.Accept the values from the user and display area of a circle,triangle,rectangle,square.
+     
+     Methods (arguments and return type based questions) 
+ 1.Accept two values from the user and perform arithmetic operation.
+ 2.Accept the values from the user and display area of a circle,triangle,rectangle,square.
+ 
+      Method overloading
+ 1.Accept the values from the user and display area of a circle,triangle.   
+     
+      Constructor
+ 1.use both default and parameterized constructor ,Accept emp id,no.of days worked ,rate per day and calculate salary.
+ 2.Accept three marks from the student and display total and percentage,use both default and parameterized constructor.       
+ 3.Accept  employee name ,emp id ,no.of days worked and amount per day from the user and display the salary of the employee.
+ 4.Accept a depositor name, principal amount and no.of years from the user.Using the function amount() ,calculate the accumulated amount
+   with the formula a=p*(1+r/100)pow n.r can be calculated from the following table
+               No.of.years        rate
+                  <1                9
+                 >=1but<=3         9.25
+                 >3but<=5          9.50
+                 above 5           9.75
+5.Accept a number from the user.Using calledPrime(), check whether the number is prime number or not.         
+
+.
+ Q1.Read the question carefully and follow the input and output format.
+
+Given an input array which contains age of some employees, write a program to find the sum of ages of employees greater than 18.
+
+Input and Output Format :
+First line of input consists of n, the number of elements. Next n lines correspond to the array elements. Output consist of an integer, which is the sum.
+
+1) Print "Invalid array size" when size of the array is a negative number and terminate the program.
+2) Print "Invalid input" when there is any negative number available in the input array and terminate the program.
+
+Include a function named newArraySum(int age[],int size) whose return type is an integer, which is the sum.
+
+Sample Input 1:
+5
+21
+22
+17
+10
+25
+Sample Output 1:
+68
+
+Sample Input 2:
+6
+50
+-36
+
+Sample Output 2:
+Invalid input
+
+
+Q2.
+ In a game show everybody got one coupon with some code. They need to count the digits in the code and send SMS to the given number.
+ 
+Write a program to find the number of digits in the given number.
+ Include a function named countDigits that accepts an integer argument and returns an integer that corresponds to the number of digits. 
+ If the input is a negative number, the function returns -1.
+ If the function returns -1, print Invalid Input.
+Input and Output Format:
+Input consists of a single integer.
+Output consists of an integer that corresponds to the number of digits in the input.
+Sample Input 1:
+250
+Sample Output 1:
+3
+Sample Input 2:
+-2345
+Sample Output 2:
+Invalid Input
+
+ Q3.Write a program to find the average of the array.
+ Include a function named avgArray that accepts 2 arguments and returns a float. 
+ The first argument is the input array and the second argument is an int that corresponds to the size of the array. 
+ The function returns a float that corresponds to the average of the array.
+ If the size of the array is negative or if any element in the array is negative , print “Invalid Input” and terminate the program.
+ Input and Output Format:
+Input consists of n+1 integers. The first integer corresponds to n, the number of elements in the array. The next 'n' integers correspond to the elements in the array.
+Output consists of a floating point number that corresponds to the average. It is displayed correct to 2 decimal places.
+Assume that the maximum size of the array is 20.
+ 
+Sample Input 1:
+7
+1
+9
+8
+4
+6
+4
+5
+Sample Output 1:
+5.29
+Sample Input 2:
+-5
+Sample Output 2:
+Invalid Input
+Sample Input 3:
+5
+23
+2
+-5
+
+ Sample Output 3:
+Invalid Input
+
+
+                                  Junit testCase(testing)
+                                  
+ 1.Create an employee class, add method to calculate yearly salary, calculateYearlySalary(), 
+  add method calculateAppraisal() : if salary >=30000 appraisal=2000 else appraisal=1000
+  
+  2.Create a SalesPerson class, and calculate commission according to sales
+  	if sales>=90	commission: 20% of the salary
+  	if sales>=80	commission: 10% of the salary
+  	if sales>=70 	commission: 5% of the salary
+  	below 70	no commission
+                                  
+         core java mini projects:  
+Library Mgmt System
+Hotel Mgmt system
+Hospital Mgmt System
+Student Information System
+ATM Machine
+Salary Magmt System
+Career Information Mgmt System
+Course Mgmt System
+Event Mgmt System
+Electricity Billing System
+Book store Mgmt
+Medical Mgmt system
+Stock Mgmt system
+Telephone Billing System
+Travel Mgmt System
+Campain Mgmt System
+University Admission Mgmt System
+Content Mgmt System
+Student Result Processing system
+Labour Mgmt system
+school mgmt system
+         
+         
+         
+         Q.
+Write a program to find whether the given number is a 3/5 Number.
+ 
+A number is a 3/5 Number if the product of the digits in the number is divisible by 3 or 5.
+ 
+Include a function named divisibleByThreeFive that accepts an integer argument and returns an integer. The function returns
+1.	1 if it is a 3/5 Number
+2.	0 if it is not a 3/5 Number
+3.	-1 if it is a negative number
+ 
+Input and Output Format:
+Input consists of a single integer.
+Output consists of a string.
+Refer sample output for formatting specifications.
+ 
+Sample Input 1:
+251
+ 
+Sample Output 1:
+yes
+ 
+Sample Input 2:
+241
+ 
+Sample Output 2:
+no
+ 
+Sample Input 3:
+-9
+sample output 3 :
+Invalid input
+
+
+Read the question carefully and follow the input and output format.
+
+Given an input array that represents the marks of students, find out the marks which are greater than or equal to average mark of all students.
+
+Input and Output Format:
+First line of input consists of n, the number of elements in the input array.
+Next n lines correspond to the array elements. Output consist of an integer array.
+
+1) Print "Invalid array size" when size of the array is negative and terminate the program.
+2) Print "Invalid input" when there is any negative numbers available in the input array and terminate the program.
+
+Include a function named aboveAverageMarks(int array[], int size) whose return type is void.
+The output array is stored in a global variable named above_average.
+
+Sample Input 1:
+5
+10
+20
+30
+40
+50
+Sample Output 1:
+30
+40
+50
+
+Sample Input 2:
+4
+-3
+Sample Output 2:
+Invalid Input
+
+
+https://github.com/Giridharlal/HospitalManagementSystem/tree/main/HospitalSystemManagment/src/coreproject
+From Subhashita Rangaraj to Everyone 12:52 PM
+ok mam
+From Priyanka Kadam to Everyone 12:52 PM
+https://github.com/Lalitnarayan98/Core_Java_Projects/tree/master/Courier_Management_System
+
+         Read the question carefully and follow the input and output format.
+
+Write a program to check if the first and middle element in an array is the same, if so display “100” in output or else display the first element of the array.
+
+Note: Array size is always odd.
+
+Input and Output Format :
+The first line of the input consists of an integer, n that corresponds to the number of elements in the array.
+The next 'n' lines correspond to the elements in the array.
+
+1) Print "Invalid array size" when size of the array is a negative number and terminate the program.
+2) Print "Invalid input" when there is any negative numbers available in the input array and terminate the program.
+3) Print "Size must be odd" when the size of the array is even.
+
+Sample Input 1:
+7
+8
+4
+5
+8
+3
+2
+1
+
+Sample Output 1:
+100
+
+Sample Input 2:
+10
+4
+5
+6
+-8
+
+Sample Output 2:
+Invalid input
+
+
+.
+Read the question carefully and follow the input and output format.
+
+Given a number n, count the occurences of a number,x in n.
+
+Input and Output Format :
+The first line of the input consists of an integer n, the second line consists of an integer, which is the digit whose occurence is to be calculated. 
+Output is an integer that gives the count.
+
+Print "Number too small" if any of the 2 input numbers is less than 0 and terminate the program.
+Print "Number too large" if any of the 2 input numbers is greater than 32767 and terminate the program.
+
+Sample Input 1:
+1122
+1
+Sample Output 1:
+2
+
+
+Sample Input 2:
+-2134
+Sample Output 2:
+Number too small
+
+
+Sample Input 3:
+3
+4
+8
+6
+
+Sample Output 3:
+4
+       
+       
+       Q.
+Read the question carefully and follow the input and output format.
+
+Given input as integer array in which consecutive elements should have a difference of 4 or more than 4.
+
+If the above condition matches display “1” else “0”
+
+Input and Output Format :
+First line of input consists of n, the number of elements. Next n lines correspond to the array elements. Output consist of an integer, which is the either 1 or 0
+
+1) Print "Invalid array size" when size of the array is a negative number and terminate the program.
+2) Print "Invalid input" when there is any negative numbers available in the input array and terminate the program.
+
+Sample Input 1:
+6
+1
+5
+10
+6
+2
+7
+
+Sample Output 1:
+1
+
+Sample Input 2:
+-8
+
+Sample Output 2:
+Invalid array size
+         
+         
+                                  sql
+ 1) on student table,should perform all the below operations?                               
+    - add phone_no column after name.
+	- update phone_no of all students
+	- change datatype of city into varchar(15)
+	- change datatype of percentage into float(5,2)
+	- add emailId column after city
+	- update city of only those students who is having percentage greater than 75
+	- delete student record if student is having id=105
+	- delete student if student is having percentage less than 15
+	- drop column email_id.
+                              
+                              
+ 2)                                 

@@ -1,0 +1,479 @@
+What is java?
+ Ans: i)Java is a class based object oriented programming language and it was developed by james Gosling.
+      ii)The rules and syntax of java is based on C,C++.
+      iii)It is also referred to as (WORA)-write once and run anywhere.
+
+What is Oops?
+ Ans:  It is object oriented programming language.The main advantages of oops is that we can reuse the code.
+ 
+1.what are the principles of oops ?(or) what are the major pillars of oops?
+  Ans:i)Abstraction (Ex: Mobile,ATM machine,Switch board).
+      ii)Encapsulation (Ex: Map,human,ppt,website,School bags),you can achieve encapsulation by private fields and by getter setter methods.
+      iii)Inheritance  (Ex: parent-child relationship).
+      iv)Polymorphism (Ex:Travelling(through either bus or car or train or plane,Actor can either play as hero or villian or comedian etc. ).
+      
+2.why java is platform independent?
+  Ans: It is a platform independent because java programs are compiled in to bytecode which is platform 
+    independent.so java is a platform independent.
+    
+3.why main method is static in java?
+  Ans: java main method() is always static because static method can be called without the creation of 
+    the object or before creating the object.In any java program,main() is the starting point where
+    compiler starts program execution.so the compiler needs to call the main() method.
+    
+4.Instead of public static void mainI(),can i write static public void main()?
+   Ans: yes.because both static and public are modifiers.though we change it,there is no error
+       occurs.
+       
+5.can we change the variable of command line arguments variable?
+   Ans: yes.we can change the command line arguments variable.
+   
+6.can i change the return type of main method?(or)can i write int instead of void in main method?
+   Ans: No.we can't able to change.If you change the signature of main method,the jvm will consider
+      it as user defined method and throws a error as "main method not found in class".
+      
+7.What is System.out.println()?   
+   Ans: System=>Class present in java.lang package
+        out=>It is a static reference of printStream class.
+        println=>It is a method in PrintStreamClass.
+        
+8.can we make a class as private or protected?
+   Ans: No.we can make it as public or default.but inner class can be private or protected.
+
+9.Is java pure oops?
+   Ans: No,java is not a pure Oops.java is based on objects but it has primitive datatypes.because of this datatypes java is not purely object oriented.    
+   
+10.What is variable?
+  Ans: It is defined  as data container to store the data values and it is a memory location of a data.
+  
+11.What are datatypes?
+  Ans: It is a classification of what type of data stored in a variable.Ex: int a; here "int" is a integer type which means you can store only integer value 
+       in a variabe "a".
+12.what are the types of variable?
+   Ans: three types of variable
+         i)Instance or Global variable
+         ii)Static Variable
+         iii)Local Variable.
+13.How to display a number upto two decimal float a=123.786912?
+  Ans: using stringFormat() function. String.format("%.2f",a);
+  
+14.What is switch Statement?
+   Ans: It is a multiple branching statement and it is also called as Menu driven program.
+15.Which one is entry controlled and exit controlled loop?
+   Ans: while->Entry controlled loop.(The loop in which the test condition is checked at the beginning of the loop).
+        do-while->Exit controlled loop.(The statement inside the body of the loop is executed first and then the condition is checked).
+16.what is class?
+   Ans: Class is a blue print for the object.before creating any object we first need to define the class.
+        It contains all the related information. 
+17.What is object?
+  Ans: It is a instance of a class.It is any entity that has state and behaviour.
+18.What are the advantages of creating a method?
+  Ans: ->reusability.
+       ->better separation of code.
+       ->easy to maintain.  
+19.What are the types of memory?
+   Ans: i)Stack->If you are declaring a variable,those variable will be stored inside stack method and when you are creating an object ,
+          only the object reference will be stored inside the stack memory.
+        ii)heap->If you are declaring a object,those object will be stored inside the heap memory.
+20.What is a class loader?
+    Ans: Class loader is used to load a  (.class file) byte code . 
+21.What is method overloading?
+   Ans: It is a type of compile time polymorphism. It has same method with difference in parameter.
+   
+22.What is the difference between super() and super keyword?
+    Ans:  Super() :
+    
+              i)super() constructor used to call the base class constructor.
+              ii)It must be called  at the  first line of constructor.
+          super :
+          
+             i)super keyword is used to call data members and methods of the base class or super class
+             ii)We can call super keyword anywhere on the method.There is no certain rules.
+                  
+23.Why java doesn't support multiple Inheritance?   
+    Ans: Due of ambiquity java doesn't support multiple inheritance in classes .In java, multiple inheritance can be achieved through
+         Interfaces.
+24.What is method overriding?
+  Ans: It is process of run time polymorphism.Method has same name as well as same parameter in parent class  as well as in child
+       class.                  
+       
+ 24.What is constructor?
+    Ans: i)It is used to initialize data members.
+         ii)It has same name as class name.
+         iii)It doesn't return anything.
+         iv)It can be called at the creation of the object.
+ 25.What is difference between method and constructor?
+      Ans: constructor
+               i)A constructor can be called when object created.
+               ii)A constructor name must be same as the class name.
+               iii)It doesn't have any return type.
+            method:
+                i)A method  is invoked by method call.
+                ii)A method name must be anything.
+                iii)It  must have return type.  
+                
+ 26.What is this() constructor?
+    Ans: It is used to call one constructor from another in the same class.
+    
+ 27.What is package?
+   Ans: Package is a collection of classes,interfaces and subpackages.Package statement must be created in the first line of a
+        program.   
+                         
+ 28.What is sub packages?
+    Ans: the package inside the another package is known as sub package. 
+    
+ 29.Can we import same package twice?
+   Ans: yes we can.
+ 30.What is default package of java?
+    Ans: java.lang package is the default package of java.
+    
+ 31.Can we write package statement after import statement?
+    Ans: We cannot define package after the import statement otherwise the compiler will throws an error.
+    
+ 32.What is Inheritance and explain with its type?
+    Ans: Inheritance is the process of accessing a base class properties in a child class.
+            Types ->There are three types of Inheritance  available in java.
+                        i)Single Inheritance
+                        ii)multilevel Inheritance
+                        iii)Hierarchical Inheritance
+                        
+ 33.What is final keyword?
+   Ans: i)It you want to define constant value to a variable and cannot be changed at anytime.At this instance you can use final
+        variable.It can be used with variables,methods and classes.
+        ii)final method cannot be overridden.
+        iii)final class cannot be inherited.
+        
+ 34.What is static keyword?
+   Ans: static keyword can be used with variables,method and a block
+         i)static variable  is used to refer common property  of all objects.
+         ii)static method belongs to class and does not belongs to object.It can be invoked before the creation of the object.
+         iii)static block is used to initialize a static variable.It is executed before main method at the time of class loading.
+   
+ 35.can we execute a program without main method?
+    Ans: one of the way to execute without main method is static block but upto prior version of 7 yes      
+  
+ 36.Which memory area does variable stored?
+   Ans:       variables are stored in stack memory.
+        
+ 37.In which memory area the object will be stored?
+    Ans: Object will be stored in heap memory.
+    
+ 38.Where the static variable is stored?
+   Ans:   static variables are stored in class area.
+   
+ 39.Can we use this and super keyword in static context?
+   Ans: No there is no use of this and super Keyword .because static doen't depends on objects.
+   
+ 40.Can we reuse static method?If yes how?
+     Ans: yes we can reuse static method.By calling the static method many times in the same class.
+ 
+ 41.Can we overload static method()?
+    Ans: yes,we can overload the static method.by showing difference in parameter.
+    
+ 42.Can we override static method?
+   Ans: no.you can't override static method,because there is a need of object in overriding by using super and this 
+        keyword,but static does not belongs to object.
+        
+43.Difference between super keyword and super()?
+        super:
+          i) It is used to access base class data members and methods.
+          ii) It can be called anywhere inside the methods.There is no certain rules for that.
+        super():
+           i)It is used to access base class constructor.
+           ii)It can be called at the first line of the child class constructor.
+           
+ 44.What is break and continue Statement?
+   Ans: break->This keyword is used to stop or terminate the loop.
+        continue->This keyword is used to skip the current iteration and continue with the next iteration.          
+           
+           
+                                                       String
+                                                       
+1.What is the difference between String and StringBuffer?
+  Ans:  String:
+            i)String class is immutable(values cannot change after initialization).
+            ii)It is slow
+            iii)It consumes more memory.
+            iV)String objects are stored in string constant pool.
+         String buffer :
+             i)String buffer is mutable 
+             ii)It is fast. 
+             iii)It consumes less memory.
+             iv)It's objects are stored in heap memory. 
+             
+2.What is the difference between StringBuffer and StringBuilder?
+  Ans: StringBuffer:
+            i)It is synchronized.
+            ii)It is less efficient than string builder.
+            iii)It is introduced in java 1.0.
+       StringBuilder:    
+            i)It is non-Synchronized.
+            ii)It is more efficient than string buffer.
+            iii)It is introduced in java 1.5.
+3.How to create a string?
+  Ans: Two ways
+          i)By string literal:Created by using double quotes Ex:String h="saran".
+          ii)By new keyword :created by using the new keyword Ex:String h=new String("Saran");
+
+                       
+           
+                   Abstraction
+                   
+ 43.What is abstract class?
+   Ans: i)Abstract class is a  restricted class that cannot be used to create objects.
+        ii)It must be inherited from another classes.
+        iii)Abstract class can have constructor,abstract method,non-abstract method as well as combination of both 
+    
+ 44.What is interface?
+    Ans: Interface is used to achieve abstraction.It can have only abstract methods,not the method body.It is mainly
+          used to achieve abstraction and multiple inheritance in java.
+          
+ 45.What is  difference between abstract class and Interface?
+    Ans:   abstract:
+               i)Abstract class can have abstract and non-abstract method.
+               ii)It doesn't support multiple inheritance.
+               iii)It can be extended using "extends" keyword.
+               iv)An abstract class may contains non final variables.
+           interface:
+                i)interface can have only abstract method.
+                ii)interface supports multiple inheritance.
+                iii)It can be implemented using "implements" keyword.
+                iv)variables declared in java interface are by default final.    
+                 
+                                                      Exception
+                  
+1.What is Exception?
+    Ans: Exception is an abnormal condition that disrupts the normal flow of a program.
+2. What is the need to handle Exception?
+    Ans: It is very important to handle an exception because it controls the normal flow of the program.
+    
+3.What are the type of Exception?
+    Ans: there are three types Exception in java
+            i)Errors-> It is  irrrecoverable.Ex: Stackoverflow,memory leakage.
+            ii)checked exception->It is a compile time Exception and it can be recoverable.Ex: IoException,filenotfoundException.
+            iii)Unchecked Exception->It is a run time exception and it can be recoverable. Ex:ArithmeticException,ClassnotfoundException. 
+            
+ 4.can we insert multiple catch block?
+   Ans: yes,we can insert multiple catch block.
+   
+5.what is the order of multiple catch block?
+   Ans: The order of multiple is from most specific to the most general.
+    
+6.What is the use of finally block?
+    Ans: It is used to execute important code though the exception is handled or not.
+7.What is final.finally and finalize?
+     Ans:     i)final :  this keyword is used to make a value of a variable as constant throughout the entire program.
+              ii)finally : It defines a block of code which we use along with try keyword.This block is used to execute important code though the exception
+                           is handled or not.
+             iii)finalize(): It is used to perform cleaning process such as closing a file,closing a database connection etc before garbage is
+                collected.
+                
+8.In which situation finally will not be executed?
+   Ans: There are two situations where finally will not be execute.They are,
+            i)If there is an error occurs,finally block will not be executed.
+            ii)If System.exit() is called before the finally block,then it will not be executed.
+            
+9.Which exception should be declared?
+    Ans: only checked exception should be declared.
+    
+
+10.can we rethrow an exception?
+   Ans: yes we can rethrow an exception by throwing inside the catch block 
+         Ex:
+           try
+           {
+             //...             
+           }      
+           catch()
+           {
+            throw new  Exception("");
+            }
+            
+  11.What is the difference between throw and throws?                      
+      Ans: throw
+              i)It is used to explicitly throw an exception.
+              ii)It is followed by instance(object).
+              iii)It is used with in the method.
+              iv)you cannot throw multiple exception.
+           throws
+              i) It is used to declare checked exception.
+              ii)It is followed by a class. 
+              iii)It is used with the method signature.
+             iv)you can declare multiple Exception(Exam : throws IoException,FileNotFoundException) .     
+ 
+ 12.what is custom or user defined Exception?
+    Ans: creating our own exception is called Custom or user defined Exception.It is used to customize exception according to the user needs.
+    
+ 13.how to create custom Exception?
+    
+         
+         
+                                                        
+                                                            Object
+                
+                
+1.What is upcasting?
+   Ans: parent class reference variable  can refer the child class object known as upcasting.
+   
+                             Collection
+                             
+1.What is collection?
+   Ans: It is an architecture to store and manipulate group of objects.
+   
+2.What are the collection over array?
+3.What are disadvantages of using array?
+  Ans:i)Array has fixed length.once it is initiated ,it can't be changed.
+      ii)It allows to store homogeneous type of data.
+4.What is the default capacity of array list?
+    Ans: the default capacity of an array list is 10.
+    
+5.What is the use of iterator interface?
+   Ans:It is used to iterate the elements in forward direction.
+   
+6.What is generic?
+   Ans: It is a process of specific type in a list. 
+    
+7.What is difference between Arraylist and Linkedlist?
+   Ans: ArrayList:
+             i)It internally uses dynamic array(growable array). 
+             ii)It is best choice for retrival and manipulation is slow.
+        Linkedlist:
+             i)It internally uses doubly linked list.  
+             ii)It is best choice for manipulation and retrival is slow.
+                
+8.What is difference between Iterator and listIterator? 
+    Ans: Iterator interface is use to iterate the elements in the forward direction only.
+         ListIterator interface is use to iterate the elements in both forward and backward directions.
+              
+9.What is difference between Collections and Collection? 
+      Ans:
+        Collection is an interface.
+        Collections is a class.   
+10.What is difference between ArrayList and Vector?                     
+   Ans: ArrayList:
+         i)It is non-synchronized.
+         ii)It is not a legacy class because it is introduced injava 1.2 version.
+         iii)It is very fast as it uses multi-threaded environment.
+         iv)The formula to increase the capacity=(current capacity*3/2)+1.
+      Vector
+        i)It is synchronized.
+        ii)It is a legacy class because it is introduced in java 1.1 version.
+        iii)It is slow compared to array list as it follows single-threaded environment.
+        iv)The formula to increase the capacity =current capacity*2;
+        
+11.Difference between comparable and comparator ?
+     Comparable->This interface is used for single sorting
+     Comparator->This interface is used for multiple sorting sequence.
+        
+12.Difference between HashSet and LinkedHashSet?
+
+13.What is Stack?What are the methods present in stack class?        
+14.Difference between list and set?
+15.What is the difference between priorityQueue and ArrayDeque?
+16.What is difference between set and map?
+17.what is difference between hashSet and hashMap?
+18.what is difference between HashMap and hashTable?
+19.how to get synchroized version of arrayList/LinkedList?
+    Ans: by using synchronizedList(list)->method present in collection.
+    
+20.how to get synchroized version of set?
+    Ans: by using synchronizedSet(set)->method present in collection Interface
+    .
+21.What is the use of properties class?
+22.What is difference between Array and ArrayList?    
+
+                          FileHandling
+1.What are the types of file?                          
+2.What is difference between byte oriented and character oriented file?  
+3.What is serialization and deserialization?
+
+                         Multithreading
+1.What is the Difference between processes and threads?
+   processes:
+       i)It can be referred as program in execution.
+       ii)It has own memory area or address.
+       iii)processes are heavy weight.
+       iv)It do not depend on each other.
+   threads :
+       i) It is part of process or it is alight weight sub process.                        
+       ii)It shares same memory address.
+       iii)threads are light weight.
+       iv)They are not independent because they share same memory space.
+                                                
+2.What is multiprocessing?
+  Ans: multiple processes running simultaneously.
+  
+3.What is multithreading?
+  Ans: multiple threads running simultaneously with in a same process.  
+  
+4.what is thread?
+  Ans : It is a light weight sub process and it shares same memory space.\
+  
+5.What is the difference thread and process?
+6.How to create a thread?
+7.Thread vs runnable.which is the best approach to create a thread?
+8.Explain thread life cycle?
+9.can we start a thread twice?
+  Ans: no.otherwise it will throw illegal thread exception.
+  
+10.can we set the priority  of thread?If yes how?  
+  Ans: yes ,we can set priority of a thread by called setPriority() and passing arguments from  1 to 10. 
+
+11.What will happen if we pass illegal priority value other than 1 to 10?
+  Ans:  It will throw illegal argument exception.
+  
+12.What is synchronization?
+  Ans: It is the process of controlling multiple threads to shared resources
+  
+13.What are the types of thread? 
+  Ans : two 
+  
+14. can u change user thread into daemon thread?      
+      
+  
+                  
+                  
+                  
+                  
+                     Testing
+1.What is software testing?
+2.what is unit testing?
+3. What is test cases?
+4.What are the advantages and features of unit testing?
+5.What is difference between manual and automated testing?
+6.Explain annotation used in Junit?
+7.What is assertion?
+8.At which class does assertion methods defined?
+  
+                          Java 8 features
+ 1.What are the features which got introduced in java 8?
+ 2.What is lambda expression?             
+ 3.What is functional interface?
+ 4.How lambda expression and functional interface are related?
+ 5.Can u create your own functional interface?
+ 6.What is method reference in java?
+ 7.What is Optional?Why and how can u use it?
+ 8.What is stream?
+ 9.What is difference between collection and stream?
+ 10.What is difference between intermediate and terminal operation?
+    Ans: Intermediate :i)Intermediate operations are lazy in nature
+                       ii)All intermediate operations returns stream as it just transfer from stream in to another  
+                       iii) Ex:filter() is an intermediate operation.
+                       
+          Terminal :->i)It is not lazy and executed as soon as encountered.     
+                      ii)Terminal operation don't.
+                      iii)Ex: count() is a terminal operation.   
+                        
+ 11.What are the issues of old date/time in ApI?
+    Ans:
+  12.Why constructor overriding is not impossible?
+     Ans: constructor overriding is not impossible,as it belongs to same class.
+ 13.Is default keyword one of the access modifier?
+   Ans:    No,It is not a access modifier..by not mentioning any access modifier,the compiler 
+           will take that as default and we don't need to mention it.
+14.What is difference between default and protected?
+   Ans: default:It is accessible only with in a same package.
+        protected: It is also accessible only with in a same package .But if there is a Is-A relationship with different
+                   package,protected can be accessible on those situation also.           
+             
+                    
